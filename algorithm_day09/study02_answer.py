@@ -24,12 +24,7 @@ n1 = 30
 n2 = 24
 
 def LCM(n1, n2):
-    if n1 < n2 :
-        max = n2
-    else :
-        max = n1
-
-    for i in range(max, n1 * n1 +1):
+    for i in range(max(n1, n2), (n1 * n2) + 1):
         if i % n1 == 0 and i % n2 == 0:
             return i
             break
