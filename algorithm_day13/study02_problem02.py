@@ -37,8 +37,6 @@ else :
 
 # map 메서드 활용
 n1, n2 = input('숫자 두개 입력 : ').split()
-n1 = int(n1)
-n2 = int(n2)
 
 if n1 > n2:
     print('>')
