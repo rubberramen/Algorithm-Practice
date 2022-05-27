@@ -21,27 +21,25 @@
 # test1
 
 n = 26
-print(n)
 
 a = n % 10
 b = (n - a)//10
-# print(b, a)
-print()
+print(b, a)             # 십 자리 수, 일 자리 수 출력
 
-n_temp = a + b
-n_temp = n_temp % 10
-print(n_temp)   # 한 자리수
+n_temp = a + b          # 두 수의 합 : 여기서는 한 자리 수
+n_temp = n_temp % 10    # 두 수의 합이 두 자리 수 일때, 오른쪽 자리 수 표현
+print(n_temp)           # 한 자리 수
 
-n1 = a * 10 + n_temp
-print('싸이클1 :', n1)     # 싸이클 1 : 68
+n1 = a * 10 + n_temp    # 오른쪽 자리 수와 앞에서 구한 합의 가장 오른쪽 자리 수를 이어 붙이기
+print('싸이클1 :', n1)  # 싸이클 1 : 68
 
 a = n1 % 10
 b = (n1 - a) // 10
 print()
 
 print(b, a)
-n_temp = a + b  # 두 자리수 : 14
+n_temp = a + b         # 두 수의 합 : 여기서는 두 자리수
 n_temp = n_temp % 10
 print(n_temp)
 n2 = a * 10 + n_temp
-print(n2)
+print('싸이클2 :', n2)

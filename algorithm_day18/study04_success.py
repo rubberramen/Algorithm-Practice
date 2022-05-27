@@ -21,7 +21,7 @@
 # try03 : 성공
 
 n = 26
-n_ab = 26
+n_ab = 26                  # 기준값 : n의 absolute
 i = 0
 tag = True
 
@@ -44,6 +44,7 @@ while tag :
         n = n1
 
 print()
-print(i)
+print(f'정답 : {i}번')
+
 
 # n = 26 일때 성공
