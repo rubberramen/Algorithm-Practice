@@ -3,6 +3,27 @@
 - 2018 시나공 정보처리기사 실기 책 알고리즘 문제 참조
 - 백준(https://www.acmicpc.net/) 문제
 
+### - day28(220604, 토) : 백준 9372_상근이의 여행
+- 스스로 해결 실패 -> 블로그 참조
+- <배운 점>
+  - 연결 그래프
+    - 이런 자료구조가 있구나
+    - https://ku-hug.tistory.com/133
+    - https://ongveloper.tistory.com/165
+  - input = sys.stdin.readline
+    - 반복문에서 입력 받을 때, 자원 낭비 방지 및 실행 속도 높이기 위해 사용
+    - https://velog.io/@yeseolee/Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%A0%A5-%EC%A0%95%EB%A6%ACsys.stdin.readline
+    - https://puleugo.tistory.com/42
+- <소회>
+  - 문제에서 '연결 그래프'라는 의미를 몰라서 헤맴
+    - 예시 입력값을 봤을 때, '어? 다 연결되어 있네? 그럼 예시에서는 n-1 일텐데'라고 생각했으나,
+    - 직항이 없는 경우도 있다고 생각했기에 고민을 함
+    - 결론적으로 '연결 그래프'라는 자료 구조(?) 개념이 있는 것
+    - 다양한 자료구조를 이해하고, 활용할 수 있는 것이 '근본'이구나...
+  - '시간 초과' 등장! 
+    - 앞으로 'input = sys.stdin.readline'를 이용해야겠구나
+- 문제 링크 : https://www.acmicpc.net/problem/9372
+
 ### - day27(220603, 금) : 백준 1157_단어 공부
 - 스스로 해결 실패 -> 블로그 참조 : https://ooyoung.tistory.com/70
 - <배운 점>
