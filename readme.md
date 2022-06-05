@@ -3,6 +3,18 @@
 - 2018 시나공 정보처리기사 실기 책 알고리즘 문제 참조
 - 백준(https://www.acmicpc.net/) 문제
 
+### - day29(220606, 월) : 백준 11724_연결 요소의 개수
+- 스스로 해결 실패 -> 블로그 참조
+- <배운 점>
+  - 연결 그래프 : DFS, BFS
+- <소회>
+  - 이제 정말 쉽지 않구나
+- 참조 링크
+  - https://ji-gwang.tistory.com/292
+  - https://velog.io/@devjuun_s/%EC%97%B0%EA%B2%B0-%EC%9A%94%EC%86%8C%EC%9D%98-%EA%B0%9C%EC%88%98-%EB%B0%B1%EC%A4%80-11724%EB%B2%88python
+  - https://velog.io/@i-zro/fdfdf
+- 문제 링크 : https://www.acmicpc.net/problem/11724
+
 ### - day28(220604, 토) : 백준 9372_상근이의 여행
 - 스스로 해결 실패 -> 블로그 참조
 - <배운 점>
